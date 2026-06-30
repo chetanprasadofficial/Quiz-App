@@ -7,10 +7,11 @@ Built as part of the OJT (On Job Training) project for Semester 2.
 
 ## 📋 About the Project
 
-This is a browser-based quiz application that tests the user's knowledge
-across multiple categories. The user enters their name, selects a category,
-and answers 10 multiple choice questions with a countdown timer.
-At the end, a result screen shows the final score with a performance message.
+The Quiz App is a browser-based interactive quiz website that allows users to
+select from multiple question categories and attempt a timed quiz. The user
+enters their name, selects a category, and answers 10 multiple choice questions
+with a countdown timer. At the end, a result screen shows the final score
+with a performance message.
 
 No backend. No API. Pure JavaScript logic and state management.
 
@@ -52,14 +53,10 @@ No backend. No API. Pure JavaScript logic and state management.
 
 ## 📁 File Structure
 
-Quiz-App
-
+Quiz-App/
 ├── index.html       → All 4 screens of the app
-
 ├── style.css        → Full design and responsive layout
-
 ├── script.js        → Quiz logic, timer, score, localStorage
-
 └── questions.js     → All 40 questions across 4 categories
 
 ---
@@ -107,7 +104,20 @@ Quiz-App
 
 ---
 
-## 👨‍💻 Developer
+## 👥 Team Members & Responsibilities
+
+| # | Name | Role |
+|---|---|---|
+| 1 | **Chetan Prasad** (Team Leader) | Project setup, Home & Category Screen, team coordination, final merging and testing |
+| 2 | **Ashutosh Kumar** | Question Screen UI — question display, progress bar, timer, options layout |
+| 3 | **Prince Chaudhary** | Quiz Logic (JavaScript) — screen switching, answer checking, scoring, timer logic |
+| 4 | **Sonu Vishwakarma** | Result Screen — final score display, performance message, restart options |
+| 5 | **Khushal Agarwal** | Questions Data — wrote all 40 questions across 4 categories in questions.js |
+| 6 | **Aarav Bhati** | CSS Styling & Responsive Design — full visual design and mobile responsiveness |
+
+---
+
+## 👨‍💻 Team Leader
 
 **Chetan Prasad**
 OJT Project — School of Technology
